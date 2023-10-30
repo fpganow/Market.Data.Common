@@ -12,6 +12,7 @@
 	<Item Name="conv.price.vi" Type="VI" URL="../conv.price.vi"/>
 	<Item Name="conv.symbol.vi" Type="VI" URL="../conv.symbol.vi"/>
 	<Item Name="get.all.tests.directories.vi" Type="VI" URL="../get.all.tests.directories.vi"/>
+	<Item Name="hosts.deserialize.orderbook.commands.vi" Type="VI" URL="../../../Market.Data.Bats.Parser/host/hosts.deserialize.orderbook.commands.vi"/>
 	<Item Name="serialize.ob.cmd.vi" Type="VI" URL="../serialize.ob.cmd.vi"/>
 	<Item Name="test.Runner.helper.vi" Type="VI" URL="../test.Runner.helper.vi"/>
 	<Item Name="val.pretty.orderbook.command.ctl" Type="VI" URL="../val.pretty.orderbook.command.ctl"/>

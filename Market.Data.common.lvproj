@@ -675,42 +675,7 @@ set_property IOSTANDARD LVCMOS25 [get_ports {Si570Clkn}]
 			</Item>
 			<Item Name="fpganow.common.fpga.lvlib" Type="Library" URL="../fpga/fpganow.common.fpga.lvlib"/>
 			<Item Name="Dependencies" Type="Dependencies"/>
-			<Item Name="Build Specifications" Type="Build">
-				<Item Name="fpganow.common.fpga" Type="Source Distribution">
-					<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-					<Property Name="Bld_buildCacheID" Type="Str">{996A3C16-E546-4361-8F67-553D7F5C5AD0}</Property>
-					<Property Name="Bld_buildSpecName" Type="Str">fpganow.common.fpga</Property>
-					<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
-					<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
-					<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
-					<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-					<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
-					<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
-					<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
-					<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
-					<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
-					<Property Name="Bld_excludedDirectory[5]" Type="Path">/C/Users/johns/OneDrive/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
-					<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-					<Property Name="Bld_localDestDir" Type="Path">../builds/fpganow.common.fpga</Property>
-					<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-					<Property Name="Bld_previewCacheID" Type="Str">{A6777BE9-EDBF-4EBF-8F15-E652524194D1}</Property>
-					<Property Name="Bld_version.build" Type="Int">1</Property>
-					<Property Name="Bld_version.major" Type="Int">1</Property>
-					<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-					<Property Name="Destination[0].path" Type="Path">../builds/fpganow.common.fpga</Property>
-					<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-					<Property Name="Destination[1].path" Type="Path">../builds/fpganow.common.fpga/data</Property>
-					<Property Name="DestinationCount" Type="Int">2</Property>
-					<Property Name="Source[0].itemID" Type="Str">{790A022B-77DC-47DA-9C19-49535235F31A}</Property>
-					<Property Name="Source[0].type" Type="Str">Container</Property>
-					<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-					<Property Name="Source[1].itemID" Type="Ref">/My Computer/FPGA Target/fpganow.common.fpga.lvlib</Property>
-					<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-					<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-					<Property Name="Source[1].type" Type="Str">Library</Property>
-					<Property Name="SourceCount" Type="Int">2</Property>
-				</Item>
-			</Item>
+			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
 		<Item Name="fpganow.common.host.lvlib" Type="Library" URL="../host/fpganow.common.host.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -722,10 +687,10 @@ set_property IOSTANDARD LVCMOS25 [get_ports {Si570Clkn}]
 			<Item Name="fpganow.common.fpga.lvlib" Type="Library" URL="../fpga/fpganow.common.fpga.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="fpganow.common.host" Type="Source Distribution">
+			<Item Name="fpganow.common" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6319784B-1426-4EAF-9F18-DC09492A143F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">fpganow.common.host</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">fpganow.common</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
@@ -737,17 +702,17 @@ set_property IOSTANDARD LVCMOS25 [get_ports {Si570Clkn}]
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/fpganow.common.host</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/fpganow.common</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9D7E0F8D-E17E-4283-BAC9-F86FA73FADB7}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/fpganow.common.host</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/fpganow.common</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/fpganow.common.host/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/fpganow.common/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1C80943E-1137-4E9E-833B-B60CF8BDDCC0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EF10C625-8F03-4696-A8AA-E03BE71ECDE8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/fpganow.common.host.lvlib</Property>
