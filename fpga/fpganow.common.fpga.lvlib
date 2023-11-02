@@ -18,6 +18,6 @@
 		<Item Name="zero.out.and.convert.vi" Type="VI" URL="../util/zero.out.and.convert.vi"/>
 		<Item Name="u64.data.ctl" Type="VI" URL="../util/u64.data.ctl"/>
 	</Item>
-	<Item Name="orderbook.command.ctl" Type="VI" URL="../../../builds/fpganow.common/orderbook.command.ctl"/>
-	<Item Name="orderbook.command.type.ctl" Type="VI" URL="../../../builds/fpganow.common/orderbook.command.type.ctl"/>
+	<Item Name="orderbook.command.ctl" Type="VI" URL="../orderbook.command.ctl"/>
+	<Item Name="orderbook.command.type.ctl" Type="VI" URL="../orderbook.command.type.ctl"/>
 </Library>
