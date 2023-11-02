@@ -15,7 +15,7 @@ Clone this repository into the parent directory of the other components, i.e.
 mkdir /mnt/c/fpganow
 cd /mnt/c/fpganow
 git clone git@github.com:fpganow/Market.Data.Common.git
-git clone git@github.com:fpganow/bats.parser.git
+git clone git@github.com:fpganow/Market.Data.Bats.Parser.git
 git clone git@github.com:fpganow/Market.Data.Filter.git
 ```
 
@@ -23,8 +23,8 @@ Then open the MarketData.Common project in LabVIEW, and run build on both the ho
 
 ```
 /mnt/c/fpganow/builds/
-. . . . . . . . . . . fpganow.common.fpga/fpganow.common.fpga.lvlib
-. . . . . . . . . . . fpganow.common.host/fpganow.common.host.lvlib
+. . . . . . . . . . . fpganow.common/fpganow.common.fpga.lvlib
+. . . . . . . . . . . . . . . . . . /fpganow.common.host.lvlib
 ```
 
 More details on how your projects can be structured:
