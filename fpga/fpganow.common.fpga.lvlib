@@ -6,6 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="util" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="deser.ob.bools.vi" Type="VI" URL="../util/deser.ob.bools.vi"/>
+		<Item Name="ser.bools.vi" Type="VI" URL="../util/ser.bools.vi"/>
 		<Item Name="count.trues.vi" Type="VI" URL="../util/count.trues.vi"/>
 		<Item Name="mux.rem.vi" Type="VI" URL="../util/mux.rem.vi"/>
 		<Item Name="reverse.u64.vi" Type="VI" URL="../util/reverse.u64.vi"/>
