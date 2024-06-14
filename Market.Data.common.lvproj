@@ -639,6 +639,7 @@ set_property IOSTANDARD LVCMOS25 [get_ports {Si570Clkn}]
 			<Property Name="Target Class" Type="Str">PXIe-6592R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
+			<Item Name="tests" Type="Folder"/>
 			<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{76A066CA-41A9-446E-BB2A-F5482DC9BB6B}</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
