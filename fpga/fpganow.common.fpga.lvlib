@@ -19,6 +19,8 @@
 		<Item Name="u64.le.vi" Type="VI" URL="../util/u64.le.vi"/>
 		<Item Name="zero.out.and.convert.vi" Type="VI" URL="../util/zero.out.and.convert.vi"/>
 		<Item Name="u64.data.ctl" Type="VI" URL="../util/u64.data.ctl"/>
+		<Item Name="crc32.vi" Type="VI" URL="../util/crc32.vi"/>
+		<Item Name="crc32.helper.vi" Type="VI" URL="../util/crc32.helper.vi"/>
 	</Item>
 	<Item Name="orderbook.command.ctl" Type="VI" URL="../orderbook.command.ctl"/>
 	<Item Name="orderbook.command.type.ctl" Type="VI" URL="../orderbook.command.type.ctl"/>
